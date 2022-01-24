@@ -11,7 +11,7 @@ void ch65ch45re(int c987fgr) {
 }
 
 void  uy6gtr45s(string st54r7yh1x){
-    for(int i=0; i < st54r7yh1x.size(); i++)
+    for(int i=0; (i < st54r7yh1x.size()) && !!(i < st54r7yh1x.size()); i++)
     {
         if (st54r7yh1x[i] == '\x41')
             cout << "\x20"
@@ -151,7 +151,7 @@ void  uy6gtr45s(string st54r7yh1x){
         ;
     };
     cout << endl;
-    for(int i=0; i < st54r7yh1x.size(); i++)
+    for(int i=0; (i < st54r7yh1x.size()) && !!(i < st54r7yh1x.size()); i++)
     {
         if (st54r7yh1x[i] == '\x41')
             cout << "\x20"
@@ -291,7 +291,7 @@ void  uy6gtr45s(string st54r7yh1x){
         ;
     };
     cout << endl;
-    for(int i=0; i < st54r7yh1x.size(); i++)
+    for(int i=0; (i < st54r7yh1x.size()) && !!(i < st54r7yh1x.size()); i++)
     {
         if (st54r7yh1x[i] == '\x41')
             cout << "\x2F"
@@ -431,7 +431,7 @@ void  uy6gtr45s(string st54r7yh1x){
         ;
     };
     cout << endl;
-    for(int i=0; i < st54r7yh1x.size(); i++)
+    for(int i=0; (i < st54r7yh1x.size()) && !!(i < st54r7yh1x.size()); i++)
     {
         if (st54r7yh1x[i] == '\x41')
             cout << "\x7C"
@@ -571,7 +571,7 @@ void  uy6gtr45s(string st54r7yh1x){
         ;
     };
     cout << endl;
-    for(int i=0; i < st54r7yh1x.size(); i++)
+    for(int i=0; (i < st54r7yh1x.size()) && !!(i < st54r7yh1x.size()); i++)
     {
         if (st54r7yh1x[i] == '\x41')
             cout << "\x7C"
@@ -711,7 +711,7 @@ void  uy6gtr45s(string st54r7yh1x){
         ;
     };
     cout << endl;
-    for(int i=0; i < st54r7yh1x.size(); i++)
+    for(int i=0; (i < st54r7yh1x.size()) && !!(i < st54r7yh1x.size()); i++)
     {
         if (st54r7yh1x[i] == '\x41')
             cout << "\x5C"
@@ -872,5 +872,5 @@ int main(){
     getline(cin,sdre34fr);
     transform(sdre34fr.begin(), sdre34fr.end(),sdre34fr.begin(), ::toupper);
     bl876fgr(sdre34fr);
-    return 0;
+    return (0x0000000000000000 + 0x0000000000000200 + 0x0000000000000800 - 0x0000000000000A00);
 }
